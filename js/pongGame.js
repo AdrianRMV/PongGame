@@ -34,7 +34,7 @@ function draw() {
         pelotaX += velocidadPelotaX;
         pelotaY += velocidadPelotaY;
 
-        if (pelotaY < 0 || pelotaY > height) {
+        if (pelotaY < 10 || pelotaY > height - 20) {
             velocidadPelotaY *= -1;
         }
         if (pelotaX < 0 || pelotaX > width) {
